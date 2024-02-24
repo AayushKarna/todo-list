@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js" defer></script>
+
+    <title>Todo list</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="page-title">My Todos</h1>
+
+      <form class="add-todo-form" id="add-todo-form">
+        <input type="text" id="todo" name="todo" placeholder="New Todo..." />
+        <button type="submit" class="btn btn-primary">Add</button>
+      </form>
+
+      <ul id="todos-container" class="todos-container">
+        <!-- <li>
+          <input type="checkbox" id="todo-1" />
+          <label for="todo-1">Example 1</label>
+          <button class="btn btn-danger" data-id="1">Delete</button>
+        </li> -->
+      </ul>
+
+      <p class="stats">
+        Completed <span id="completed-figure">0</span> /
+        <span id="total-figure">0</span> tasks (<span id="percentage-figure"
+          >0.00%</span
+        >).
+      </p>
+      <button class="btn btn-danger" id="clear-list-btn">Clear List</button>
+    </div>
+  </body>
+</html>
