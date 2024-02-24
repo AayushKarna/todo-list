@@ -34,6 +34,7 @@ body {
 }
 
 .add-todo-form {
+  align-self: stretch;
   display: flex;
   gap: 0.8rem;
 }
@@ -79,7 +80,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
-  margin-bottom: 1.5rem;
 }
 
 .todos-container li {
